@@ -1,4 +1,4 @@
-section,footer {
+section, footer {
     background-color: #1A79BC;
 }
 
@@ -8,24 +8,22 @@ section,footer {
     font-family: 'Patrick Hand', cursive;    
 }
 
-a {color: white;}
-
 .sub-h {
 text-decoration: underline;
 }
 
-.my-items {
+.card{
     background-color: blueviolet;
     border: 1px solid black;
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10px;
 }
 
 /* file : project.html */
 .my-form {
-    background-color: aquamarine;
-    height: 500px;
-    width: 500px;
+    max-width: 500px;
+    max-height: 500px;
     border: 5px solid black;
 }
 .navbar-collapse.collapse.in {
