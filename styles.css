@@ -1,26 +1,17 @@
-* {
+section,footer {
     background-color: #1A79BC;
+}
+
+* {
     color: white;
     font-size: 20px;
-    font-family: 'Patrick Hand', cursive; 
-
+    font-family: 'Patrick Hand', cursive;    
 }
 
-.my-nav .tile {
-    list-style-type: none;  
-}
 a {color: white;}
 
 .sub-h {
 text-decoration: underline;
-
-}
-
-.tile {
-width: 200px;
-height: 200px;
-background-color: #778899;
-
 }
 
 .my-items {
@@ -37,3 +28,6 @@ background-color: #778899;
     width: 500px;
     border: 5px solid black;
 }
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
