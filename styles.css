@@ -22,26 +22,31 @@ text-decoration: underline;
 
 /* file : project.html */
 .my-form {
-    max-width: 500px;
-    max-height: 500px;
     border: 5px solid white;
+    height: 500px;
+    width: auto;
+
     
   }
 .f-input{
-    background-color: aqua;
+    background-color:whitesmoke;
+    color: black;
     margin:10px;
 }
 .f-txta{
-    background-color: blueviolet;
+    background-color: whitesmoke;
+    color: black;
+    height: 250px;
     margin:10px;
 }
 .f-button {
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
+    color: black;
     margin:10px;
 }
  
 .navbar-collapse.collapse.in {
-    display: block!important;
+    display: flex!important;
   }
   .jumbotron {
     color: white;
@@ -50,4 +55,10 @@ text-decoration: underline;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+  }
+  a.nav-link{
+      width: 50%;
+  }
+  .nav-item{
+      width: 100px;
   }
