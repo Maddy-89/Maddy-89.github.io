@@ -29,3 +29,11 @@ text-decoration: underline;
 .navbar-collapse.collapse.in {
     display: block!important;
   }
+  .jumbotron {
+    color: white;
+    background-image: url('ocean.jpeg');;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
