@@ -23,26 +23,33 @@ text-decoration: underline;
 /* file : project.html */
 .my-form {
     border: 5px solid white;
+    border-bottom: 75px solid white;
     height: 500px;
     width: auto;
-
+    background-color: black;
     
   }
 .f-input{
     background-color:whitesmoke;
     color: black;
     margin:10px;
+    width: 80%;
+    max-width: 450px;
 }
 .f-txta{
     background-color: whitesmoke;
     color: black;
     height: 250px;
     margin:10px;
+    width: 90%;
+    max-width: 500px;
 }
 .f-button {
     background-color: whitesmoke;
     color: black;
     margin:10px;
+    width: 200px;
+    padding: 10px;
 }
  
 .navbar-collapse.collapse.in {
@@ -57,8 +64,8 @@ text-decoration: underline;
     height: 100vh;
   }
   a.nav-link{
-      width: 50%;
+      width: auto;
   }
   .nav-item{
-      width: 100px;
+      width: 75px;
   }
