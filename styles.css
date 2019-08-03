@@ -24,8 +24,22 @@ text-decoration: underline;
 .my-form {
     max-width: 500px;
     max-height: 500px;
-    border: 5px solid black;
+    border: 5px solid white;
+    
+  }
+.f-input{
+    background-color: aqua;
+    margin:10px;
 }
+.f-txta{
+    background-color: blueviolet;
+    margin:10px;
+}
+.f-button {
+    background-color: blanchedalmond;
+    margin:10px;
+}
+ 
 .navbar-collapse.collapse.in {
     display: block!important;
   }
