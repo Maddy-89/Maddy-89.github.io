@@ -1,13 +1,15 @@
 section, footer {
     background-color:black;
-}
 
+}
 * {
     color: white;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;  
 }
-
+.navbar{
+    background-color: black;
+}
 .sub-h {
 text-decoration: underline;
 }
@@ -72,7 +74,6 @@ text-decoration: underline;
   .nav-item{
       width: 75px;
   }
-
 .hero {
     background-color: black;
     width: auto;
