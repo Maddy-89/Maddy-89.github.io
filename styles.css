@@ -71,9 +71,6 @@ text-decoration: underline;
   a.nav-link{
       width: auto;
   }
-  .nav-item{
-      width: 75px;
-  }
 .hero {
     background-color: black;
     max-width: 515px;
