@@ -1,11 +1,11 @@
 section, footer {
-    background-color: #1A79BC;
+    background-color:black;
 }
 
 * {
     color: white;
     font-size: 20px;
-    font-family: 'Patrick Hand', cursive;    
+    font-family: 'Roboto', sans-serif;   
 }
 
 .sub-h {
@@ -58,11 +58,13 @@ text-decoration: underline;
   }
   .jumbotron {
     color: white;
-    background-image: url('ocean.jpeg');;
+    background-image: url("hero.jpg");
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    margin-bottom: 0;
   }
   a.nav-link{
       width: auto;
@@ -70,3 +72,8 @@ text-decoration: underline;
   .nav-item{
       width: 75px;
   }
+
+.hero {
+    background-color: black;
+    width: auto;
+}
