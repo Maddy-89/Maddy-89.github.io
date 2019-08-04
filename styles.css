@@ -77,4 +77,5 @@ text-decoration: underline;
 .hero {
     background-color: black;
     max-width: 515px;
+    text-align: center;
 }
