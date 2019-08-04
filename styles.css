@@ -76,5 +76,5 @@ text-decoration: underline;
   }
 .hero {
     background-color: black;
-    width: auto;
+    max-width: 515px;
 }
