@@ -1,6 +1,6 @@
 section, footer {
     background-color:black;
-
+    padding: 20px;
 }
 * {
     color: white;
@@ -10,9 +10,7 @@ section, footer {
 .navbar{
     background-color: black;
 }
-.sub-h {
-text-decoration: underline;
-}
+
 
 .card{
     background-color: rgb(49, 49, 63);
@@ -94,7 +92,6 @@ text-decoration: underline;
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
-
 .pimg{
   max-width:350px;
 }
