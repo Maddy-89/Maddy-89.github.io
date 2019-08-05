@@ -1,44 +1,80 @@
+/* All Pages */
 section, footer {
     background-color:black;
-    padding: 20px;
-}
+    padding: 20px;}
+
 * {
-    color: white;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;  
-}
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;}
+
 .navbar{
-    background-color: black;
-}
+  background-color: black;}
+
+.navbar-collapse.collapse.in {
+  display: flex!important;}
+
+a.nav-link{
+  width: auto;}
 
 
+/* Index page hero img and title */
+.jumbotron {
+  color: white;
+  background-image: url("hero.jpg");
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 0;}
+
+.hero {
+  background-color: black;
+  max-width: 515px;
+  text-align: center;}
+
+.typewrite {
+  font-family: monospace;
+  border-right: 2px solid rgba(255,255,255,.75);}
+
+.anim-typewrite {
+  animation: blinkTextCursor 500ms infinite normal;}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}}
+
+.pimg{
+  max-width:350px;}
+
+/* Profile cards */
 .card{
     background-color: rgb(49, 49, 63);
     border: 5px solid white;
     border-bottom: 75px solid white;
     height: 250px;
     width: 250px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;}
 
 
+/* Contact Form */
 .my-form {
     border: 5px solid white;
     border-radius: 10px;
     border-bottom: 75px solid white;
     height: 500px;
     width: 600px;
-    background-color: rgb(49, 49, 63);
-    
-  }
+    background-color: rgb(49, 49, 63);}
+
 .f-input{
     background-color:whitesmoke;
     border-radius: 10px;
     color: black;
     margin:10px;
     width: 80%;
-    max-width: 450px;
-}
+    max-width: 450px;}
+
 .f-txta{
     background-color: whitesmoke;
     border-radius: 10px;
@@ -46,52 +82,12 @@ section, footer {
     height: 250px;
     margin:10px;
     width: 90%;
-    max-width: 500px;
-}
+    max-width: 500px;}
+
 .f-button {
     background-color: whitesmoke;
     color: black;
     margin:10px;
     width: 200px;
     padding: 10px;
-    border-radius: 10px;
-}
- 
-.navbar-collapse.collapse.in {
-    display: flex!important;
-  }
-  .jumbotron {
-    color: white;
-    background-image: url("hero.jpg");
-    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    margin-bottom: 0;
-  }
-  a.nav-link{
-      width: auto;
-  }
-.hero {
-    background-color: black;
-    max-width: 515px;
-    text-align: center;
-}
-
-.typewrite {
-  font-family: monospace;
-  border-right: 2px solid rgba(255,255,255,.75);
-}
-
-.anim-typewrite {
-  animation: blinkTextCursor 500ms infinite normal;
-}
-
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-.pimg{
-  max-width:350px;
-}
+    border-radius: 10px;}
