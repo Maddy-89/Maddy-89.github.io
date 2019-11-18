@@ -55,7 +55,17 @@ a.nav-link{
     background-color: black;
     border: 3px solid white;
     }
+.card.column{
+ margin: 10px 0px 10px 0px;
 
+}
+.card-body{
+  
+  max-height: 250px;
+}
+.card-img-top{
+  max-height: 250px;
+}
 
 /* Contact Form */
 .my-form {
