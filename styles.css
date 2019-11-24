@@ -57,6 +57,7 @@ a.nav-link{
     }
 .card.column{
  margin: 10px 0px 10px 0px;
+ height: 500px;
 
 }
 .card-body{
@@ -65,7 +66,7 @@ a.nav-link{
 }
 .card-img-top{
   object-fit: cover;
-  max-height: 250px;
+  height: 250px;
 }
 
 /* Contact Form */
