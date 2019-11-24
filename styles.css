@@ -27,7 +27,9 @@ a.nav-link{
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  margin-bottom: 0;}
+  margin-bottom: 0;
+  max-height: 400px;
+}
 
 .hero {
   background-color: black;
@@ -50,13 +52,21 @@ a.nav-link{
 
 /* Profile cards */
 .card{
-    background-color: rgb(49, 49, 63);
-    border: 5px solid white;
-    border-bottom: 75px solid white;
-    height: 250px;
-    width: 250px;
-    margin-bottom: 10px;}
+    background-color: black;
+    border: 3px solid white;
+    }
+.card.column{
+ margin: 10px 0px 10px 0px;
 
+}
+.card-body{
+  
+  max-height: 250px;
+}
+.card-img-top{
+  object-fit: cover;
+  max-height: 250px;
+}
 
 /* Contact Form */
 .my-form {
