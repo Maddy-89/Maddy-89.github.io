@@ -64,6 +64,7 @@ a.nav-link{
   max-height: 250px;
 }
 .card-img-top{
+  object-fit: cover;
   max-height: 250px;
 }
 
